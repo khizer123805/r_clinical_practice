@@ -16,3 +16,4 @@ str(patients)
 patients[patients$Sex=="F",]
 summary(patients$Weight)
 patients[patients$Age > 30 & patients$Sex =="M",]
+summary(patients)
